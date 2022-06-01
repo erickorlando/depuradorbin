@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepuradorBin", "DepuradorBin\DepuradorBin.csproj", "{6DE44940-BF57-4BFE-937F-55834E80061D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveBinaries", "RemoveBinaries\RemoveBinaries.csproj", "{7F86DB24-3AC3-402B-ADC6-EF391D173D69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,10 @@ Global
 		{6DE44940-BF57-4BFE-937F-55834E80061D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DE44940-BF57-4BFE-937F-55834E80061D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DE44940-BF57-4BFE-937F-55834E80061D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F86DB24-3AC3-402B-ADC6-EF391D173D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F86DB24-3AC3-402B-ADC6-EF391D173D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F86DB24-3AC3-402B-ADC6-EF391D173D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F86DB24-3AC3-402B-ADC6-EF391D173D69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
