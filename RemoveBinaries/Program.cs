@@ -8,9 +8,18 @@ public static class Program
     {
         try
         {
-            Console.WriteLine("This utility allows to delete all binaries from a .NET Solution");
+            char separator = '*';
+            char border = '-';
+            int length = 100;
+            
+            Console.WriteLine(new string(separator, length));
+            Console.WriteLine("This utility allows you to delete all binaries from a .NET Solution");
             Console.WriteLine($"Running under {Environment.OSVersion.VersionString}");
+            Console.WriteLine(new string(separator, length));
+
+            Console.WriteLine(new string(border, length));
             Console.WriteLine($"This operation will run on {Environment.CurrentDirectory} do you want to proceed? [y]/n");
+            Console.WriteLine(new string(border, length));
 
             var key = Console.ReadLine() ?? string.Empty;
 
